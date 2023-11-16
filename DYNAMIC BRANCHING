@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main() { 
+int choice;
+printf("Enter your choice (1 or 2):");
+scanf("%d", &choice);
+if (choice == 1 ) {
+printf("You chose option 1.\n");
+
+} else if (choice == 2 ) { 
+printf("You chose option 2.\n");
+} else {
+printf ("Invalid choice.\n");
+}
+return 0;
+}
+
+
+
+STATIC BRANCHING
+
+#include <stdio.h>
+int main() { 
+int condition = 1 ;
+if (condition) {
+printf("Branch taken (likely case)\n");
+} else {
+printf("branch not taken (unliely case)\n");
+}
+return 0;
+}
+
